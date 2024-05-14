@@ -305,7 +305,9 @@ module Provider
                        ['converters/google/convert.go',
                         'third_party/tgc/convert.go'],
                        ['converters/google/convert_test.go',
-                        'third_party/tgc/convert_test.go']
+                        'third_party/tgc/convert_test.go'],
+                       ['converters/google/log_bucket.go',
+                        'third_party/tgc/log_bucket.go']
                      ])
     end
 

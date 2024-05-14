@@ -63,6 +63,7 @@ func ResourceConverters() map[string][]cai.ResourceConverter {
 		"google_sql_database":                             {sql.ResourceConverterSQLDatabase()},
 		"google_container_cluster":                        {resourceConverterContainerCluster()},
 		"google_container_node_pool":                      {resourceConverterContainerNodePool()},
+		"google_logging_bucket": 						   {resourceLogBucket()},
 		"google_bigquery_dataset":                         {bigquery.ResourceConverterBigQueryDataset()},
 		"google_bigquery_dataset_iam_policy":              {bigquery.ResourceConverterBigqueryDatasetIamPolicy()},
 		"google_bigquery_dataset_iam_binding":             {bigquery.ResourceConverterBigqueryDatasetIamBinding()},

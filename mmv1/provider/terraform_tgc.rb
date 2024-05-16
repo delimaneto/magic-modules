@@ -250,6 +250,8 @@ module Provider
                         'third_party/terraform/services/compute/disk_type.go'],
                        ['converters/google/resources/services/kms/kms_utils.go',
                         'third_party/terraform/services/kms/kms_utils.go'],
+                       ['converters/google/resources/services/logging/resource_logging_project_bucket_config.go',
+                        'third_party/terraform/services/logging/resource_logging_project_bucket_config.go'],
                        ['converters/google/resources/services/sourcerepo/source_repo_utils.go',
                         'third_party/terraform/services/sourcerepo/source_repo_utils.go'],
                        ['converters/google/resources/services/pubsub/pubsub_utils.go',

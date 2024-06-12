@@ -319,7 +319,9 @@ module Provider
                        ['converters/google/resources/commitment.go',
                         'third_party/tgc/commitment.go'],
                        ['converters/google/resources/firebase_project.go',
-                        'third_party/tgc/firebase_project.go']
+                        'third_party/tgc/firebase_project.go'],
+                       ['converters/google/resources/logging_folder_bucket_config.go',
+                        'third_party/tgc/logging_folder_bucket_config.go']
                      ])
     end
 
